@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles pour les icônes de médias sociaux */
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff; /* Couleur du lien */
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #f8f9fa;
+}
+
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px; /* Espacement entre les cartes sur mobile */
+    }
+}
